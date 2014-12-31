@@ -37,17 +37,17 @@ class ImpExDisplay extends ImpExFunction
 
 	var $_target_versions = array (
 		'forum' => array(
-			'400' 		=> 'vBulletin 4.0.* - 4.1.*',
+			'400' 		=> 'vBulletin 4.0.* - 4.2.*',
 			'360' 		=> 'vBulletin 3.7.* &amp; 3.8.*',
 			'350' 		=> 'vBulletin 3.5.*',
 			'309' 		=> 'vBulletin 3.0.*'
 			),
 		'blog' => array(
 			'blog10' 	=> 'vBulletin Blog 1.0.*',
-			'blog40' 	=> 'vBulletin Blog 4.0.* - 4.1.*'
+			'blog40' 	=> 'vBulletin Blog 4.0.* - 4.2.*'
 			),
 		'cms' => array(
-			'cms10' 	=> 'vBulletin Suite CMS 4.0.* - 4.1.*'
+			'cms10' 	=> 'vBulletin Suite CMS 4.0.* - 4.2.*'
 			),
 		);
 
