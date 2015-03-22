@@ -20,7 +20,7 @@ The basics of the installations are as follows:
 
 ImpEx passcode
 -------
-Since we no longer distrubute ImpEx though our build servers, we've added a passcode feature. This allows you to secure your installation. By default it is set to test. We highly recommend you set a good and secure password.
+Since ImpEx is no longer distrubuted though the vBulletin build servers, a passcode feature has been added. This allows you to secure your installation. By default it is set to "596d0eb1300aaec1100f204633013782". We highly recommend you set a good and secure password.
 This will be the password you use to get into the impex system.
 
 
