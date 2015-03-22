@@ -5,7 +5,7 @@ if (function_exists('set_time_limit') AND get_cfg_var('safe_mode')==0)
 }
 
 ignore_user_abort(true);
-error_reporting(E_ALL  & ~E_NOTICE);
+error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT);
 /*
 * @package 		ImpEx.tools
 *

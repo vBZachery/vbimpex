@@ -9,7 +9,7 @@
 || ####################################################################
 \*======================================================================*/
 
-error_reporting(E_ALL & ~E_NOTICE);
+error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT);;
 // db class for mysql
 // this class is used in all scripts
 // do NOT fiddle unless you know what you are doing
