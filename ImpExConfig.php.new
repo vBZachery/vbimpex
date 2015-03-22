@@ -23,7 +23,7 @@ if (!defined('IDIR')) { die; }
 ###
 */
 
-$impexconfig['passcode']	= 'test';
+$impexconfig['passcode']	= '596d0eb1300aaec1100f204633013782';
 
 
 /*
