@@ -1,4 +1,4 @@
-<?#shebang#?><?php
+<?php
 if (function_exists('set_time_limit') AND get_cfg_var('safe_mode')==0)
 {
 	@set_time_limit(0);

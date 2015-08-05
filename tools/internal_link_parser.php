@@ -1,4 +1,4 @@
-<?#shebang#?><?php
+<?php
 /*
 * @package 		ImpEx.tools
 *
