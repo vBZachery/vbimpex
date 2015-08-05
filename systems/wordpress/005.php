@@ -138,6 +138,7 @@ class wordpress_005 extends wordpress_000
 			// Mandatory
 			$blog->set_value('mandatory', 'firstblogtextid',		"0");
 			$blog->set_value('mandatory', 'userid',					$idcache->get_id('user', $data['post_author']));
+			$blog->set_value('mandatory', 'postedby_userid', 			$idcache->get_id('user', $data['post_author']));
 			$blog->set_value('mandatory', 'dateline',				strtotime($data['post_date']));
 			#$blog->set_value('mandatory', 'options',				$data['options']);
 			$blog->set_value('mandatory', 'title',					$data['post_title']);
