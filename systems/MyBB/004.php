@@ -167,7 +167,9 @@ class MyBB_004 extends MyBB_000
 
 			$try->set_value('nonmandatory', 'birthday',				$b_bits[1] . "-" . $b_bits[0] . "-" . $b_bits[2]);
 			$try->set_value('nonmandatory', 'birthday_search',		$b_bits[2] . "-" . $b_bits[1] . "-" . $b_bits[0]);
-			$try->set_value('nonmandatory', 'ipaddress',			$user_details['regip']);
+			// MyBB stores ip addresses via ip2long to store as an int, need to reverse it to pull it back out so it can be stored in vB.
+			$zREGIP = long2ip($user_details['regip']);
+			$try->set_value('nonmandatory', 'ipaddress',			$zREGIP);
 
 
 			$try->add_default_value('signature', 					addslashes($user_details['signature']));
