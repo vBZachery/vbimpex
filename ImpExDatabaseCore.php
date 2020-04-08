@@ -6754,7 +6754,7 @@ class ImpExDatabaseCore extends ImpExFunction
 	* @param	object	databaseobject	The database that the function is going to interact with.
 	* @param	string	mixed			The type of database 'mysql', 'postgresql', etc
 	* @param	string	mixed			The prefix to the table name i.e. 'vb3_'
-	* @param	string	mixed			array( title => '', smilietext => '', smiliepath => '')
+	* @param	string				Smilie text
 	*
 	* @return	boolean
 	*/
@@ -6765,7 +6765,7 @@ class ImpExDatabaseCore extends ImpExFunction
 			// MySQL database
 			case 'mysql':
 			{
-				return $Db_object->query_first("SELECT smilieid FROM " . $tableprefix . "smilie WHERE smilietext='". addslashes($smilie['smilietext']) ."'");
+				return $Db_object->query_first("SELECT smilieid FROM " . $tableprefix . "smilie WHERE smilietext='". addslashes($smilie) ."'");
 			}
 
 			// Postgres database
